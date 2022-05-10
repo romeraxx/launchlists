@@ -1,29 +1,29 @@
 [{
-  "chainId": 31337,
-  "saleManagerAddress": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
-  "saleId": "0xe771b1e18f058577ff08390172412402d3de360f8ce3e890036c670e7ed54d81",
-  "saleName": "Tokensoft Example Sale",
-  "logo": "https://example.com/icon.png",
+  "chainId": 3,
+  "saleManagerAddress": "0xa8e6D915816d5a9F15cf1C8D19Cafe1bddc98bbA",
+  "saleId": "0x3487e7f889eee125d9ac139c6a5820551f615e60492b9efbcd60bb5a0c9a5a75",
+  "saleName": "Testnet Gang Community Sale",
+  "logo": "https://www.hizliresim.com/2av3j2s",
   "favicon": "https://example.com/favicon.ico",
-  "projectWebsite": "https://example.com",
+  "projectWebsite": "testnetgang.com",
   "hidden": false,
   "purchaseDocumentsGenerated": false,
   "saleDescription": "A sale of Example Tokens to our community on date for purpose at price. Use this example sale as a guide when configuring your own sale",
   "socials": {
-    "twitter": "https://twitter.com/example"
+    "twitter": "https://twitter.com/tokensoftinc"
   },
   "documents": [{
     "name": "Terms and Conditions",
-    "uri": "https://example.com/terms.pdf"
+    "uri": "wearethegang.com"
   }, {
     "name": "Privacy Policy",
-    "uri": "https://example.com/privacy.pdf"
+    "uri": "wearethegang.com/pdf"
   }, {
     "name": "Purchase Agreement",
-    "uri": "https://example.com/purchase.pdf",
-    "appendSignaturePageUri": "https://example.com/purchase_countersigned_template.pdf"
+    "uri": "wearethegang.com/purchase/pdf",
+    "appendSignaturePageUri": "wearethegang.com"
   }],
-  "access": {
+  "access": { everyone
     "limitToRegions": ["US", "CA", "CH"],
     "limitToAddresses": ["0x3cfa1411e0243c23486e7d966f46ee2d1d2a28fa", "0xd9c556ef2cd9a7066d6c35c5505cac8d4bd4223d"],
     "merkleProofs": "https://gateway.pinata.cloud/ipfs/QmNYPPSXpNi83vdUBYL7DcgVZjRVxodUG6GcZR5LzGGc4M"
